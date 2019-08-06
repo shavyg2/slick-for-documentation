@@ -1,0 +1,7 @@
+{
+    "$schema": "./node_modules/now-dammit/schema.json",
+    "common": {
+        "source": "./client/public/theme/getting started/default/assets",
+        "lib": ["./client/public/assets"]
+    }
+}
