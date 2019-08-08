@@ -10,7 +10,8 @@ import Decorators from "./pages/decorators.svelte";
 import Provider from "./pages/providers.svelte";
 
 @Controller("/",{
-    layout:UserLayout
+    layout:UserLayout,
+    scope:"Singleton"
 })
 export class UserController {
 

@@ -2,7 +2,9 @@ import {
   Injectable
 } from "@slick-for/svelte";
 
-@Injectable()
+@Injectable({
+  scope:"Singleton"
+})
 export class GithubApi {
   private apiUrl = "https://api.github.com";
 

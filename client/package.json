@@ -1,0 +1,35 @@
+{
+    "name": "slick-svelte-basic-app",
+    "version": "1.0.0",
+    "devDependencies": {
+      "@types/jest": "^24.0.16",
+      "awesome-typescript-loader": "^5.2.1",
+      "cross-env": "^5.2.0",
+      "css-loader": "^2.1.1",
+      "jest": "^24.8.0",
+      "mini-css-extract-plugin": "^0.6.0",
+      "serve": "^11.0.0",
+      "style-loader": "^0.23.1",
+      "svelte": "^3.0.0",
+      "svelte-loader": "2.13.3",
+      "ts-jest": "^24.0.2",
+      "typescript": "^3.5.3",
+      "webpack": "^4.30.0",
+      "webpack-cli": "^3.3.0",
+      "webpack-dev-server": "^3.3.1"
+    },
+    "scripts": {
+      "build": "cross-env NODE_ENV=production webpack",
+      "dev": "webpack-dev-server --host 0.0.0.0 --content-base public"
+    },
+    "dependencies": {
+      "@slick-for/di": "^1.0.0",
+      "@slick-for/svelte": "^1.1.5",
+      "@types/jsonwebtoken": "^8.3.2",
+      "deepmerge": "^4.0.0",
+      "history": "^4.9.0",
+      "jsonwebtoken": "^8.5.1",
+      "reflect-metadata": "^0.1.13",
+      "rxjs": "^6.5.2"
+    }
+  }
